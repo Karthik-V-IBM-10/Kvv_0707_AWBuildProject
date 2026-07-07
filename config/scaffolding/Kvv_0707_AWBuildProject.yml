@@ -7,12 +7,6 @@ packages:
   gitUrl: https://github.com/Karthik-V-IBM-10
   gitUsername: Karthik-V-IBM-10
   gitBranch: main
-- name: SIQACloudStreamsTests
-  version: "1.0"
-  gitServerName: kvv
-  gitUrl: https://github.com/manoj-jannu-IBM
-  gitUsername: Karthik-V-IBM-10
-  gitBranch: main
 - name: SSL_JDBC_Test
   gitServerName: prabhakaribm
   gitUrl: https://github.com/prabhakaribm
