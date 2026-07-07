@@ -1,0 +1,13 @@
+version: "1.0"
+projectName: Kvv_0707_AWBuildProject
+runtimes:
+- runtimeAlias: kvv_0707_AWSBuild
+  assets:
+  - name: fld_156851932_stage00.projects.fl7b91b18ef26347698a4e7c20790d75f6.integrations:tpp
+    type: flow
+    stepId: /0
+    reference: fld_156851932_stage00.projects.fl7b91b18ef26347698a4e7c20790d75f6.WmPackageServiceProvider.SIQACloudStreamsTests:connetorOperations
+  - name: fld_156851932_stage00.projects.fl7b91b18ef26347698a4e7c20790d75f6.integrations:tpp
+    type: flow
+    stepId: /1
+    reference: fld_156851932_stage00.projects.fl7b91b18ef26347698a4e7c20790d75f6.WmPackageServiceProvider.SIQAJDBCAdapterTests.adapterServices:getData
