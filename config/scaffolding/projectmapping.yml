@@ -1,3 +1,17 @@
 version: "1.0"
 projectName: Kvv_0707_AWBuildProject
-runtimes: []
+runtimes:
+- runtimeAlias: Cloud Designtime
+  assets:
+  - name: testWorkflow
+    type: workflow
+    uid: fl3a29fd30b54343ca85ab2007eeb23894
+    stepId: a0
+    reference: project.kvv_0707_awbuild.integrations:refdaf
+- runtimeAlias: kvv_0707_AWSBuild
+  assets:
+  - name: testWorkflow
+    type: workflow
+    uid: fl3a29fd30b54343ca85ab2007eeb23894
+    stepId: a1
+    reference: project.kvv_0707_awbuild.integrations:refdaf
